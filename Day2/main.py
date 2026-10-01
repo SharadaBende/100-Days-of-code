@@ -8,7 +8,7 @@ people = int(input("How many people to split the bill? $"))
 
 calculation = (bill * ((tip/100) + 1)) / people
 
-print(f"Each person should pay: {calculation:.2f}")
+print(f"Each person should pay: ${calculation:.2f}")
 
 
 
